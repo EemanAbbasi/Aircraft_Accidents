@@ -4,10 +4,10 @@ This repository contains a Jupyter notebook (aircraft_accident_analysis.ipynb) f
 
 Key analyses include:
 
-**Pie Charts: Distribution of accidents and fatalities by manufacturer (e.g., Boeing, Douglas/McDonnell Douglas), with leader lines for readability.
-**Heatmaps: Accidents and fatalities by aircraft type and decade, highlighting temporal trends.
-**Bar Plots: Accidents and fatalities by manufacturer, aircraft type, operator type, and country.
-**Climate Change Context: Investigating whether high-fatality manufacturers or recent accidents correlate with severe weather events (e.g., storms causing 7.5% of delays, 55% turbulence increase in North Atlantic, 41% in USA, 1979–2020).
+- Pie Charts: Distribution of accidents and fatalities by manufacturer (e.g., Boeing, Douglas/McDonnell Douglas), with leader lines for readability. 
+- Heatmaps: Accidents and fatalities by aircraft type and decade, highlighting temporal trends.
+- Bar Plots: Accidents and fatalities by manufacturer, aircraft type, operator type, and country.
+- Climate Change Context: Investigating whether high-fatality manufacturers or recent accidents correlate with severe weather events (e.g., storms causing 7.5% of delays, 55% turbulence increase in North Atlantic, 41% in USA, 1979–2020).
 
 # Dataset
 The dataset (aircraft_accidents.csv) contains records of aircraft accidents from 1908 to 2025, with the following columns:
