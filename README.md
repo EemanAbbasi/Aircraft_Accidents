@@ -1,4 +1,4 @@
-#Aircraft Accident Analysis
+# Aircraft Accident Analysis
 Overview
 This repository contains a Jupyter notebook (aircraft_accident_analysis.ipynb) for analyzing aircraft accidents and fatalities from 1908 to 2025, using the dataset aircraft_accidents.csv. The analysis explores accident frequency, fatality counts, and patterns by aircraft manufacturer, with a focus on potential climate change impacts (e.g., weather-related accidents due to storms or turbulence). Visualizations include pie charts, heatmaps, and bar plots, styled for publication quality (e.g., Nature standards).
 
@@ -9,7 +9,7 @@ Heatmaps: Accidents and fatalities by aircraft type and decade, highlighting tem
 Bar Plots: Accidents and fatalities by manufacturer, aircraft type, operator type, and country.
 Climate Change Context: Investigating whether high-fatality manufacturers or recent accidents correlate with severe weather events (e.g., storms causing 7.5% of delays, 55% turbulence increase in North Atlantic, 41% in USA, 1979–2020).
 
-#Dataset
+# Dataset
 The dataset (aircraft_accidents.csv) contains records of aircraft accidents from 1908 to 2025, with the following columns:
 
 ##Date: Date of the accident (e.g., "17-Sep-08").
@@ -26,7 +26,7 @@ Parse Fatalities into Fatalities, Aboard, and Ground.
 Derive Manufacturer by consolidating aircraft types (e.g., Boeing 737 → "Boeing").
 Add Country, Operator_Type (Military, Commercial, Private, Other), and Decade.
 
-#Requirements
+# Requirements
 To run the notebook, install the required Python packages:
 pip install pandas matplotlib seaborn numpy
 
@@ -36,7 +36,7 @@ Pandas: Data manipulation and analysis.
 Matplotlib/Seaborn: Creating visualizations (pie charts, heatmaps, bar plots).
 NumPy: Numerical operations.
 
-#Setup
+# Setup
 
 Clone the repository:
 git clone https://github.com/your-username/aircraft-accident-analysis.git
@@ -54,7 +54,7 @@ jupyter notebook aircraft_accident_analysis.ipynb
 Run the cells to reproduce the analysis and visualizations.
 
 
-Visualizations
+# Visualizations
 The notebook includes the following visualizations, saved as images in the plots/ directory:
 
 Pie Chart (Fatalities by Manufacturer): Proportion of fatalities by manufacturer, with leader lines to reduce label clutter.
