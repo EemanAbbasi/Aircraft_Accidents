@@ -53,27 +53,6 @@ jupyter notebook aircraft_accident_analysis.ipynb
 
 Run the cells to reproduce the analysis and visualizations.
 
-
-# Visualizations
-The notebook includes the following visualizations, saved as images in the plots/ directory:
-
-Pie Chart (Fatalities by Manufacturer): Proportion of fatalities by manufacturer, with leader lines to reduce label clutter.
-Pie Chart (Accidents by Manufacturer): Distribution of accidents by manufacturer.
-Heatmaps: Accidents and fatalities by aircraft type and decade, showing temporal patterns.
-Bar Plots: Accidents and fatalities by manufacturer, aircraft type, operator type, and country.
-
-To view plots on GitHub, the notebook uses Markdown cells with embedded image references (see below).
-Displaying Plots on GitHub
-GitHub renders Jupyter notebooks, but plots generated in code cells may not display unless saved as images and referenced in Markdown cells. Follow these steps to ensure plots are visible:
-
-Commit Images to GitHub:Include all plot images in the repository:
-```bash
-git add plots/*.png
-git commit -m "Add plot images"
-git push origin main
-```
-
-
 Example Notebook Structure:
 ## Fatalities by Manufacturer
 The following pie chart shows the distribution of fatalities by aircraft manufacturer, with leader lines for readability.
