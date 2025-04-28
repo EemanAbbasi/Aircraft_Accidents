@@ -19,12 +19,12 @@ The dataset (aircraft_accidents.csv) contains records of aircraft accidents from
 
 The dataset is preprocessed to:
 
-Parse dates and correct years (e.g., 2046 → 1946).
-Split Location / Operator into Location and Airline/Op.
-Split Aircraft Type / Registration into AC Type and Reg.
-Parse Fatalities into Fatalities, Aboard, and Ground.
-Derive Manufacturer by consolidating aircraft types (e.g., Boeing 737 → "Boeing").
-Add Country, Operator_Type (Military, Commercial, Private, Other), and Decade.
+- Parse dates and correct years (e.g., 2046 → 1946).
+- Split Location / Operator into Location and Airline/Op.
+- Split Aircraft Type / Registration into AC Type and Reg.
+- Parse Fatalities into Fatalities, Aboard, and Ground.
+- Derive Manufacturer by consolidating aircraft types (e.g., Boeing 737 → "Boeing").
+- Add Country, Operator_Type (Military, Commercial, Private, Other), and Decade.
 
 # Requirements
 To run the notebook, install the required Python packages:
