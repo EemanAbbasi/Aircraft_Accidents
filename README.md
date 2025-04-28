@@ -66,16 +66,6 @@ To view plots on GitHub, the notebook uses Markdown cells with embedded image re
 Displaying Plots on GitHub
 GitHub renders Jupyter notebooks, but plots generated in code cells may not display unless saved as images and referenced in Markdown cells. Follow these steps to ensure plots are visible:
 
-Save Plots as Images:Each plot is saved using plt.savefig() with a high DPI (300 for Nature quality). For example:
-plt.savefig('plots/fatalities_by_manufacturer_pie.png', dpi=300, bbox_inches='tight', format='png')
-
-Images are stored in the plots/ directory.
-
-Add Markdown Cells:After each plot’s code cell, insert a Markdown cell to display the image:
-![Fatalities by Manufacturer](plots/fatalities_by_manufacturer_pie.png)
-
-Ensure the filename matches exactly, including case sensitivity.
-
 Commit Images to GitHub:Include all plot images in the repository:
 ```bash
 git add plots/*.png
