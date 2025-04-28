@@ -12,10 +12,10 @@ Key analyses include:
 # Dataset
 The dataset (aircraft_accidents.csv) contains records of aircraft accidents from 1908 to 2025, with the following columns:
 
-##Date: Date of the accident (e.g., "17-Sep-08").
-##Location / Operator: Location and operator (e.g., "Fort Myer, Virginia\nMilitary - U.S. Army").
-##Aircraft Type / Registration: Aircraft type and registration (e.g., "Wright Flyer III\n?").
-##Fatalities: Fatalities, aboard, and ground deaths in the format "X/Y(Z)" (e.g., "1/2(0)").
+- #Date: Date of the accident (e.g., "17-Sep-08").
+- Location / Operator: Location and operator (e.g., "Fort Myer, Virginia\nMilitary - U.S. Army").
+- Aircraft Type / Registration: Aircraft type and registration (e.g., "Wright Flyer III\n?").
+- Fatalities: Fatalities, aboard, and ground deaths in the format "X/Y(Z)" (e.g., "1/2(0)").
 
 The dataset is preprocessed to:
 
