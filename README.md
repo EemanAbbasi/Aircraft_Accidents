@@ -1,6 +1,7 @@
 #Aircraft Accident Analysis
 Overview
 This repository contains a Jupyter notebook (aircraft_accident_analysis.ipynb) for analyzing aircraft accidents and fatalities from 1908 to 2025, using the dataset aircraft_accidents.csv. The analysis explores accident frequency, fatality counts, and patterns by aircraft manufacturer, with a focus on potential climate change impacts (e.g., weather-related accidents due to storms or turbulence). Visualizations include pie charts, heatmaps, and bar plots, styled for publication quality (e.g., Nature standards).
+
 Key analyses include:
 
 #Pie Charts: Distribution of accidents and fatalities by manufacturer (e.g., Boeing, Douglas/McDonnell Douglas), with leader lines for readability.
